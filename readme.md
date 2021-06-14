@@ -1,5 +1,5 @@
 # Computer Science II
-## Lab 4.0 - Classes & Constructors
+## Lab 3.0 - Classes & Constructors
 
 An introduction to using classes and constructors in the Java programming language.
 
@@ -30,32 +30,16 @@ Following the lab, you should be able to:
 
 ### Peer Programming Pair-Up
 
-To encourage collaboration and a team environment, labs will be
-structured in a *pair programming* setup.  At the start of
-each lab, you may be randomly paired up with another student by
-a lab instructor.  One of you will be designated the *driver* 
-and the other the *navigator*.  
+You may work on this lab with a partner or by yourself. Whichever you choose, you should submit your code to the corresponding Handin assignment. Handin link: https://cse-apps.unl.edu/handin
 
-The navigator will be responsible for reading the instructions 
-and telling the driver what is to be done.  The driver will be 
-in charge of the keyboard and workstation.  Both driver and 
-navigator are responsible for suggesting fixes and solutions 
-*together*.  Neither the navigator nor the driver is "in charge."  
-Beyond your immediate pairing, you are encouraged to help and 
-interact and with other pairs in the lab.
+If you attend lab over Zoom, you may work in a a pair programming setup. At the start of each lab, you may be randomly paired up with another student by a lab instructor. One of you will be designated the driver and the other the navigator.
 
-Each week you should try to alternate: if you were a driver 
-last week, be a navigator next, etc.  Resolve any issues (you 
-were both drivers last week) within your pair.  Ask the lab 
-instructor to resolve issues only when you cannot come to a 
-consensus.  
+The navigator will be responsible for reading the instructions and telling the driver what is to be done. The driver will be in charge of the keyboard and workstation (on Zoom, this means the driver shares their screen). Both driver and navigator are responsible for suggesting fixes and solutions together. Neither the navigator nor the driver is "in charge."
+Beyond your immediate pairing, you are encouraged to help and interact and with other pairs in the lab.
 
-Because of the peer programming setup of labs, it is absolutely 
-essential that you complete any pre-lab activities and familiarize
-yourself with the handouts prior to coming to lab.  Failure to do
-so will negatively impact your ability to collaborate and work with 
-others which may mean that you will not be able to complete the
-lab.  
+Each week you should try to alternate: if you were a driver last week, be a navigator next, etc. Resolve any issues (you were both drivers last week) within your pair. Ask the lab instructor to resolve issues only when you cannot come to a consensus.
+
+Because of the peer programming setup of labs, it is absolutely essential that you complete any pre-lab activities and familiarize yourself with the handouts prior to coming to lab. Failure to do so will negatively impact your ability to collaborate and work with others which may mean that you will not be able to complete the lab.
 
 ## 1. Getting Started
 
@@ -218,4 +202,18 @@ errors and completely debug your programs.
     Design and implement a copy constructor for the `Book` class and the 
     `Library` class. How do different fields need to be copied?
 
+## 5. Deck of Cards (Optional)
 
+A `PlayingCard` represents  a  card  used  in  games  such  as  poker  and  black  jack,  and stores the suit value (hearts, diamonds, clubs, or spades) and the rank value (2 through 10, or jack, queen, king, or ace).  A `Deck` represents a complete 52-card collection of `PlayingCards`.   A `MultipleDeck` represents  one  or  more  `Deck`s  of  cards  (the  exact number  is  specifed  in  the  constructor).   Implement  the  three  classes `PlayingCard`, `Deck`, and `MultipleDeck`, providing the minimal functionality to
+
+* shuffle a `Deck`
+* deal a `PlayingCard`
+* check if there are remaining `PlayingCard`s left in the `Deck`.
+
+Make sure to have a `toString()` method in `PlayingCard` so you can represent a card to the console.
+
+### 5.1 Expected Output
+
+Note that sorting is in the Optional activity, so you are only required to have 4 menu options: Add, Find, Print, and Exit.
+
+See handout/lab3ExpectedOutputs.pdf for screenshots of expected outputs.
