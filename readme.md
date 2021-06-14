@@ -46,7 +46,7 @@ Because of the peer programming setup of labs, it is absolutely essential that y
 ## 1. Getting Started
 
 Clone this project code for this lab from GitHub in Eclipse using the
-URL: https://github.com/cbourke/CSCE156-Lab04. Refer to Lab 1.0 for
+URL: https://github.com/sroscoe2/CSCE156-Lab03.git. Refer to Lab 1.0 for
 instructions on how to clone a project from GitHub.
 
 ## 2. Classes & Constructors 
