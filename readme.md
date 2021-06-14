@@ -218,4 +218,4 @@ Make sure to have a `toString()` method in `PlayingCard` so you can represent a 
 
 Note that sorting is in the Optional activity, so you are only required to have 4 menu options: Add, Find, Print, and Exit.
 
-See handout/lab3ExpectedOutputs.pdf for screenshots of expected outputs.
+See [lab3ExpectedOutputs.pdf](https://github.com/sroscoe2/CSCE156-Lab03/blob/master/lab3ExpectedOutputs.pdf) for screenshots of expected outputs.
