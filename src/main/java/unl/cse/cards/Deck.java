@@ -1,4 +1,4 @@
-package cards;
+package unl.cse.cards;
 
 public class Deck {
 	//TODO: represent complete 52-card deck
