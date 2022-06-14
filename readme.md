@@ -5,7 +5,7 @@ An introduction to using classes and constructors in the Java programming langua
 
 This is a lab used in Computer Science II (CSCE 156, CSCE 156H) in the [Department of Computer Science & Engineering](https://cse.unl.edu) at the [University of Nebraska-Lincoln](https://unl.edu).
 
-Chris Bourke wrote this lab, revamped by Sarah Roscoe for Summer 2021.
+Chris Bourke wrote this lab, revamped by Sarah Roscoe for Summer 2021 and 2022.
 
 ## Overview
 
@@ -90,7 +90,7 @@ list the collection.
     functionality. Note that printing the collection is not fully
     operational
 
-2.  Complete each of the accessor (getter) methods in the class. Best
+2.  Complete each of the accessor (getter) methods in the `Book` class. Best
     Practice Tip: always use the `this` keyword to disambiguate the scope of
     variables and prevent potential problems when subclassing.
 
